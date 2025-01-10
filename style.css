@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Valorant';
+    src: url('Valorant\ Font.ttf') format('truetype');
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;  
+    height: 100vh;
+    margin: 0;
+    background-image: url('background_image.jpg');  
+    background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+
+
+.boxLogin {
+    font-family: 'Valorant';
+    padding: 20px;  
+    background-image: url('valorant.jpeg');  
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat;
+    width: 492px;  
+    max-height: 550px;  
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    overflow-y: auto;  
+    font-size: 25px;  
+    flex-direction: column;
+}
+
+.titulo {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    margin-bottom: 10px;  
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.5); 
+    border: none; 
+    color: black; 
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.6); 
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;  
+    font-size: 18px; 
+    background-color: #e70000;  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    transition: background-color 0.3s, transform 0.3s; 
+    font-family: 'Valorant'; 
+}
+
+button:hover {
+    background-color: #ff0000;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #bd0000;
+    transform: scale(0.98);
+}
