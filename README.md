@@ -1,6 +1,6 @@
 # Valorant Login Page 🎮
 
-Este é um projeto de uma página de login inspirada no jogo **Valorant**, irei adicionando novas opçoẽs e funcionalidades conforme eu ir aprendendo
+Este é um projeto de uma página de login inspirada no jogo **Valorant**, irei adicionando novas opções e funcionalidades conforme eu ir aprendendo
 
 ## 💻 Funcionalidades
 - Sistema de login com validação.
